@@ -7,11 +7,11 @@
 <title>Login</title>
 </head>
 <body>
-<form method="post" action="Servlet?login">
+<form method="post" action="Servlet?action=login">
 <fieldset>
 <!--  only username/password at first. Legacy reasons (mobile apps, swing) -->
 <label>Username <input type="text" id="username" name="username"/></label><br>
-<label>Password <input type="password" id="pass" name="pass" /></label><br>
+<label>Password <input type="password" id="password" name="password" /></label><br>
 <input type="submit" value="login">
 </fieldset>
 </form>
